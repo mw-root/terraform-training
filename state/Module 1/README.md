@@ -9,8 +9,9 @@ interact with it.
 Navigate to the [hashicups](/hashicups) folder and follow the [Starticups](/hashicups/README.md#Starticups) procedure.
 
 
-### Build hashicups
-There is no arm build for hashicups, so we'll have to build it.
+### Build Hashicups Provider
+There is no arm build for terraform-provider-hashicups, so we'll have to build it
+and mangle our local system slightly.
 
 ```
 cd ~/repos
@@ -38,3 +39,7 @@ provider_installation {
 }
 EOF
 ```
+
+## Run the Module
+
+See [MODULE.md](MODULE.md)

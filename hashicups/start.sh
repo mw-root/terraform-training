@@ -1,3 +1,3 @@
 #!/usr/bin/env zsh
 
-docker-compose up
+docker-compose up -d
